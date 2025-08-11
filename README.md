@@ -1,93 +1,108 @@
-❤️ Heart Disease Prediction
-📌 Overview
-This project predicts the likelihood of heart disease based on various health-related attributes.
-Using Machine Learning techniques, the model analyzes medical data to assist in early diagnosis and preventive healthcare.
+# ❤️ Heart Disease Prediction
+# 📌 Overview
 
-🛠 Tech Stack
-Language: Python
+This project predicts the **likelihood of heart disease** based on various health-related attributes.
+By applying Machine Learning techniques, the model analyzes patient medical data to assist in early diagnosis and preventive healthcare.
 
-Libraries:
+## 🛠 Tech Stack
+**Language:** Python
 
-pandas, numpy – Data handling
+**Libraries Used:**
 
-matplotlib, seaborn – Data visualization
+* pandas, numpy → Data handling
+* matplotlib, seaborn → Data visualization
+* scikit-learn → Model training & evaluation
+* Jupyter Notebook → Development environment
 
-scikit-learn – Model training & evaluation
+## 📂 Project Structure
 
-Jupyter Notebook – Development environment
-
-📂 Project Structure
-bash
-Copy
-Edit
+```
 📁 Heart-Disease-Prediction
-│── 📄 heart.csv               # Dataset
-│── 📄 Heart_disease_prediction.ipynb   # Model training & evaluation
-│── 📄 README.md                # Project documentation
-📊 Dataset
+│── 📄 heart.csv                       # Dataset
+│── 📄 Heart_disease_prediction.ipynb  # Model training & evaluation
+│── 📄 README.md                        # Project documentation
+```
+
+## 📊 Dataset
+
 The dataset contains patient medical records such as:
 
-Age
+* Age
+* Sex
+* Blood pressure
+* Cholesterol level
+* Fasting blood sugar
+* ECG results
+* Maximum heart rate achieved
+* Exercise induced angina
+* Oldpeak (ST depression)
+* Number of major vessels
+* Thalassemia type
 
-Sex
+**Target variable:**
 
-Blood pressure
+* `1` → Heart disease present
+* `0` → No heart disease
 
-Cholesterol level
+---
 
-Fasting blood sugar
+## 🚀 How to Run
 
-ECG results
+**1️⃣ Clone the repository:**
 
-Maximum heart rate achieved
-
-Exercise induced angina
-
-Oldpeak (ST depression)
-
-Number of major vessels
-
-Thalassemia type
-
-Target variable: 1 → Heart disease present, 0 → No heart disease.
-
-🚀 How to Run
-Clone the repository:
-
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/yourusername/Heart-Disease-Prediction.git
 cd Heart-Disease-Prediction
-Install dependencies:
+```
 
-bash
-Copy
-Edit
+**2️⃣ Install dependencies:**
+
+```bash
 pip install -r requirements.txt
-Open the Jupyter Notebook:
+```
 
-bash
-Copy
-Edit
+**3️⃣ Open the Jupyter Notebook:**
+
+```bash
 jupyter notebook Heart_disease_prediction.ipynb
-Run all cells to see data analysis, training, and prediction results.
+```
 
-📈 Model & Evaluation
-Preprocessing: Missing value handling, encoding categorical variables, scaling.
+**4️⃣ Run all cells** to see the data analysis, training, and prediction results.
 
-Models used: Logistic Regression, Random Forest, Decision Tree, KNN, SVM (depending on notebook).
+## 📈 Model & Evaluation
 
-Metrics: Accuracy, Precision, Recall, F1-score, Confusion Matrix.
+**Preprocessing:**
 
-📌 Features
-Data cleaning and preprocessing pipeline.
+* Handling missing values
+* Encoding categorical variables
+* Feature scaling
 
-Exploratory Data Analysis (EDA) with visualizations.
+**Models Tested:**
 
-Multiple ML models with comparison.
+* Logistic Regression
+* Random Forest
+* Decision Tree
+* K-Nearest Neighbors (KNN)
+* Support Vector Machine (SVM)
 
-Prediction function for new patient data.
+**Evaluation Metrics:**
 
-📜 License
-This project is licensed under the MIT License – you are free to use, modify, and distribute it.
+* Accuracy
+* Precision
+* Recall
+* F1-score
+* Confusion Matrix
+
+
+## 📌 Features
+
+✔ Data cleaning & preprocessing pipeline
+✔ Exploratory Data Analysis (EDA) with visualizations
+✔ Multiple ML models with performance comparison
+✔ Prediction function for new patient data
+
+
+## 📜 License
+
+This project is licensed under the **MIT License** – you are free to use, modify, and distribute it.
+
