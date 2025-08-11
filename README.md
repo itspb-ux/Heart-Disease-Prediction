@@ -51,7 +51,7 @@ The dataset contains patient medical records such as:
 **1️⃣ Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/Heart-Disease-Prediction.git
+git clone https://github.com/itspb-ux/Heart-Disease-Prediction.git
 cd Heart-Disease-Prediction
 ```
 
